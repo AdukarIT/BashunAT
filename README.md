@@ -2,5 +2,11 @@
 
 ## Домашнее задание 1
 
-[задание 1;](https://jsfiddle.net/GnorrBreed/eby3uad4/5/)
-[задание 2;](https://jsfiddle.net/GnorrBreed/eby3uad4/4/)
+Задание 1 
+* 301
+* VK
+* https://www.google.com/
+
+Задание 2
+* [задание 2а;](https://jsfiddle.net/GnorrBreed/eby3uad4/5/)
+* [задание 2б;](https://jsfiddle.net/GnorrBreed/eby3uad4/4/)
