@@ -3,69 +3,70 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Inquagram</title>
+    <title>Resistagram</title>
 </head>
 
 <body>
     <header>
-        <div>
-            <img src="./img/header/logo.jpg" alt="logo inqusition" height="100">
-            <h2>Inquagram</h2>
-            <h4>We welcome you Inquisitor of the Imperium of Man!
-                <br>
-                God-Emperor bless you!
-            </h4>
-        </div>
+        <a href="index.html"><img src="./img/header/logo.jpg" alt="logo inqusition" height="100">
+            <h2>Resistagram</h2>
+        </a>
     </header>
     <main>
         <div>
-            <h2>Log in</h2>
-            <form action="feed.html" autocomplete="on">
-                <span>Adepmail:</span>
-                <input type="text" name="Adepmail" placeholder="Your Adepmail *">
-                <br>
-                <br>
-                <span>Password:</span>
-                <input type="password" name="Password" placeholder="Your Password *">
-                <br>
-                <br>
-                <button type="submit" name="Enter">Enter</button>
-            </form>
+            <fieldset>
+                <legend>Log in</legend>
+                <form action="feed.html" autocomplete="on">
+                    <label for="mail"> Email
+                        <input id="mail" type="text" name="Email" placeholder="Your Email *">
+                    </label>
+                    <br>
+                    <br>
+                    <label for="psw">Password:
+                        <input id="psw" type="password" name="Password" placeholder="Your Password *">
+                    </label>
+                    <br>
+                    <br>
+                    <button type="submit" name="Enter">Enter</button>
+                </form>
+            </fieldset>
         </div>
         <hr>
         <div>
             <h3>
-                If the Inquisitor for the first time,
-                <br>
-                then the Adeptus Ministorum will ask him to register.
+                Rebel! If this is your first time with us,
+                do not forget to register.
             </h3>
-            <form action="feed.html">
-                <label for="firstname">Firstname:</label>
-                <input id="firstname" type="text" name="firstname" placeholder="Your Name">
-                <br>
-                <br>
-                <label for="lastname">lastname:</label>
-                <input id="lastname" type="text" name="lastname" placeholder="Your Lastname">
-                <br>
-                <br>
-                <label for="adepmail">Adepmail:</label>
-                <input id="adepmail" type="text" name="adepmail" placeholder="Your Adepmail *">
-                <br>
-                <br>
-                <label for="password">Password:</label>
-                <input id="password" type="password" name="password" placeholder="Your password *">
-                <br>
-                <br>
-                <label for="reppassword">Repeat your passwors:</label>
-                <input id="reppassword" type="password" name="reppassword" placeholder="repeaat password *">
-                <br>
-                <br>
-                <label for="dot">I agree with the processing of personal data for the Adeptus Ministorum</label>
-                <input id="dot" type="checkbox" required>
-                <br>
-                <br>
-                <button type="submit" name="registrayion">Registration</button>
-            </form>
+            <fieldset>
+                <legend>Registration</legend>
+                <form action="feed.html">
+                    <label for="firstname">Firstname:</label>
+                    <input id="firstname" type="text" name="firstname" placeholder="Your Name">
+                    <br>
+                    <br>
+                    <label for="lastname">lastname:</label>
+                    <input id="lastname" type="text" name="lastname" placeholder="Your Lastname">
+                    <br>
+                    <br>
+                    <label for="email">Email:</label>
+                    <input id="adepmail" type="text" name="adepmail" placeholder="Your Adepmail *">
+                    <br>
+                    <br>
+                    <label for="password">Password:</label>
+                    <input id="password" type="password" name="password" placeholder="Your password *">
+                    <br>
+                    <br>
+                    <label for="reppassword">Repeat your passwors:</label>
+                    <input id="reppassword" type="password" name="reppassword" placeholder="repeaat password *">
+                    <br>
+                    <br>
+                    <label for="dot">I agree with the processing of personal data.</label>
+                    <input id="dot" type="checkbox" required>
+                    <br>
+                    <br>
+                    <button type="submit" name="registrayion">Registration</button>
+                </form>
+            </fieldset>
             <p>Fields with [ * ] are required</p>
         </div>
     </main>
