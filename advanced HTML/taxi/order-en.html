@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Taxi</title>
+</head>
+
+<body>
+    <header>
+        <a href="order-ru.html">
+            <img height="200" src="./img/header/logo.png" alt="logo taxi">
+            <h1>TAXI</h1>
+        </a>
+        <hr>
+        <p>select language</p>
+        <nav>
+            <a href="order-ru.html">RU</a>
+            <a href="order-en.html">EN</a>
+            <a href="order-by.html">BY</a>
+        </nav>
+    </header>
+    <hr>
+    <main>
+        <fieldset>
+            <legend>Order a taxi</legend>
+            <form action="conf-en.html">
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name">
+                <br>
+                <br>
+                <label for="address">Address:*</label>
+                <input type="text" name="addres" id="address" required>
+                <br>
+                <br>
+                <label for="tel">Tel number:*</label>
+                <input type="tel" name="tel" id="tel" required>
+                <p>
+                    <label>Payment method:*</label>
+                    <input type="radio" name="pay" required>Cash
+                    <input type="radio" name="pay" required>Card
+
+                </p>
+                <label for="car">Type of car:</label>
+                <select name="car" id="car">
+                    <option disabled>select type</option>
+                    <option>Base</option>
+                    <option>Premium</option>
+                    <option>Lux</option>
+                </select>
+                <p>
+                    <label>additional options:</label>
+                    <input type="checkbox" name="add">minivan
+                    <input type="checkbox" name="add">сhild safety seat
+                    <input type="checkbox" name="add" id="add">english speaking driver
+
+                </p>
+                <textarea name="comment" placeholder="comment or additional information" cols="70" rows="10"></textarea>
+                <br>
+                <br>
+                <button type="submit" name="conf">order</button>
+                <p>fields marked [ * ] are required</p>
+            </form>
+        </fieldset>
+    </main>
+    <footer>
+        <address>
+            <p>Our address: Zelenyj pereulok 34/175</p>
+            <p>Phone: <a href="tel:+3785848422311">3785848422311</a></p>
+        </address>
+    </footer>
+
+</body>
+
+</html>

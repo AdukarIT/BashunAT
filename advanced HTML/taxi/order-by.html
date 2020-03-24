@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="by">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Taxi</title>
+</head>
+
+<body>
+    <header>
+        <a href="order-by.html">
+            <img height="200" src="./img/header/logo.png" alt="logo taxi">
+            <h1>TAXI</h1>
+        </a>
+        <hr>
+        <p>абярыце мову</p>
+        <nav>
+            <a href="order-ru.html">RU</a>
+            <a href="order-en.html">EN</a>
+            <a href="order-by.html">BY</a>
+        </nav>
+    </header>
+    <hr>
+    <main>
+        <fieldset>
+            <legend>Замовіць машыну</legend>
+            <form action="conf-by.html">
+                <label for="name">Ваша імя:</label>
+                <input type="text" name="name" id="name">
+                <br>
+                <br>
+                <label for="address">Ваш адрас:*</label>
+                <input type="text" name="addres" id="address" required>
+                <br>
+                <br>
+                <label for="tel">Нумар тэлефона:*</label>
+                <input type="tel" name="tel" id="tel" required>
+                <p>
+                    <label>Спосаб аплаты:*</label>
+                    <input type="radio" name="pay" required>Гатоўка
+                    <input type="radio" name="pay" required>Карта
+
+                </p>
+                <label for="car">Тып аўтамабіля:</label>
+                <select name="car" id="car">
+                    <option disabled>выберыце клас</option>
+                    <option>Базавы</option>
+                    <option>Прэміум</option>
+                    <option>Люкс</option>
+                </select>
+                <p>
+                    <label>Дадаткова:</label>
+                    <input type="checkbox" name="add">Мінівэн
+                    <input type="checkbox" name="add">дзіцячае крэсла
+                    <input type="checkbox" name="add" id="add">ангельскамоўны кіроўца
+
+                </p>
+                <textarea name="comment" placeholder="каментарый або дадатковая інфармацыя" cols="70" rows="10"></textarea>
+                <br>
+                <br>
+                <button type="submit" name="conf">замовіць машыну</button>
+                <p>палі адзначаныя [ * ] абавязковыя для запаўнення</p>
+            </form>
+        </fieldset>
+    </main>
+    <footer>
+        <address>
+            <p>Наш Адрас: Зялены завулак 34/175</p>
+            <p>Тэлефон: <a href="tel:+3785848422311">3785848422311</a></p>
+        </address>
+    </footer>
+
+</body>
+
+</html>

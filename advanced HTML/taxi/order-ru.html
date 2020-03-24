@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Taxi</title>
+</head>
+
+<body>
+    <header>
+        <a href="order-ru.html">
+            <img height="200" src="./img/header/logo.png" alt="logo taxi">
+            <h1>TAXI</h1>
+        </a>
+        <hr>
+        <p>выберете язык</p>
+        <nav>
+            <a href="order-ru.html">RU</a>
+            <a href="order-en.html">EN</a>
+            <a href="order-by.html">BY</a>
+        </nav>
+    </header>
+    <hr>
+    <main>
+        <fieldset>
+            <legend>Заказать машину</legend>
+            <form action="conf-ru.html">
+                <label for="name">Ваше имя:</label>
+                <input type="text" name="name" id="name">
+                <br>
+                <br>
+                <label for="address">Ваш адрес:*</label>
+                <input type="text" name="addres" id="address" required>
+                <br>
+                <br>
+                <label for="tel">Номер телефона:*</label>
+                <input type="tel" name="tel" id="tel" required>
+                <p>
+                    <label>Способ оплаты:*</label>
+                    <input type="radio" name="pay" required>Наличные
+                    <input type="radio" name="pay" required>Карта
+
+                </p>
+                <label for="car">Тип автомобиля:</label>
+                <select name="car" id="car">
+                    <option disabled>выберете класс</option>
+                    <option>Базовый</option>
+                    <option>Премиум</option>
+                    <option>Люкс</option>
+                </select>
+                <p>
+                    <label>Дополнительно:</label>
+                    <input type="checkbox" name="add">минивэн
+                    <input type="checkbox" name="add">детское кресло
+                    <input type="checkbox" name="add" id="add">англоговорящий водитель
+
+                </p>
+                <textarea name="comment" placeholder="коментарий или дополнительная информация" cols="70" rows="10"></textarea>
+                <br>
+                <br>
+                <button type="submit" name="conf">заказать машину</button>
+                <p>поля отмеченные [ * ] обязательны для заполнения</p>
+            </form>
+        </fieldset>
+    </main>
+    <footer>
+        <address>
+            <p>Наш Адресс: Зеленый переулок 34/175</p>
+            <p>Телефон: <a href="tel:+3785848422311">3785848422311</a></p>
+        </address>
+    </footer>
+
+</body>
+
+</html>
