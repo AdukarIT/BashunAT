@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cart</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="store__head">
+                <div class="logo">
+                    <img src="./img/logo.png" alt="">
+                </div>
+                <div class="store__name">
+                    <p>asimov robotics</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+       <div class="lead__menu">
+       
+        <div class="drop__menu">
+            <div class="menu">
+                <ul class="ul__menu">
+                    <li class="list__menu"><a href="#">Бытовая техника </a>
+                        <ul class="down__menu">
+                            <li><a href="#"> Стиральные машины</a></li>
+                            <li><a href="#">Стиральные машины</a></li>
+                            <li><a href="#">Пылесосы</a></li>
+                            <li><a href="#">Швейные, вышивальные машины</a></li>
+                            <li><a href="#">Утюги</a></li>
+                            <li><a href="#">Электровеники</a></li>
+                            <li><a href="#">Сушилки для обуви</a></li>
+                            
+                        </ul>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+        <div class="drop__menu">
+            <div class="menu">
+                <ul class="ul__menu">
+                    <li class="list__menu"><a href="#">Техника для кухни </a>
+                        <ul class="down__menu">
+                            <li><a href="#"> Холодильники</a></li>
+                            <li><a href="#"> Кухонные плиты</a></li>
+                            <li><a href="#"> Морозильники</a></li>
+                            <li><a href="#"> Настольные плиты</a></li>
+                            <li><a href="#"> Ростеры, мини-печи</a></li>
+                            <li><a href="#"> Вытяжки</a></li>
+                            <li><a href="#"> Микроволновые печи</a></li>
+                            
+                        </ul>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+        <div class="drop__menu">
+           
+            <div class="menu">
+                <ul class="ul__menu">
+                    <li class="list__menu"><a href="#">Компьютерная техника</a>
+                        <ul class="down__menu">
+                            <li><a href="#"> Ноутбуки</a></li>
+                            <li><a href="#"> Планшеты</a></li>
+                            <li><a href="#"> Компьютеры, моноблоки</a></li>
+                            <li><a href="#"> Игровые приставки</a></li>
+                            <li><a href="#"> Серверное оборудование</a></li>
+                            
+                        </ul>
+                    </li>
+
+                </ul>
+
+            </div>
+            
+        </div>
+
+        <div class="drop__menu">
+            <div class="menu">
+                <ul class="ul__menu">
+                    <li class="list__menu"><a href="#">Корзин</a>
+<!--
+                        <ul class="down__menu">
+                            <li><a href="#"> werwerwerwerwe</a></li>
+                            <li><a href="#"> werwerwerwerwe</a></li>
+                            <li><a href="#"> werwerwerwerwe</a></li>
+                            <li><a href="#"> werwerwerwerwe</a></li>
+                            <li><a href="#"> werwerwerwerwe</a></li>
+                            <li><a href="#"> werwerwerwerwe</a></li>
+                            <li><a href="#"> werwerwerwerwe</a></li>
+                            <li><a href="#"> werwerwerwerwe</a></li>
+                        </ul>
+-->
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+        
+        </div>
+        
+        <div class="byu">
+           <div class="container">
+               <form action="#">
+                   <fieldset class="fieldset">
+                       <legend>Форма заказа</legend>
+                       <label>Фамилия и имя
+                          <input type="text" required >   
+                       </label>
+                       <br>
+                       <label>Номер телефона
+                           <input type="tel"  required>
+                       </label>
+                       <br>
+                       <label>E-mail
+                           <input type="email" required>
+                       </label>
+                       <br>
+                       <p class="p__sam">Выберите способ доставки</p>
+                       
+                       <input id="sam" type="checkbox" >
+                       <label for="sam" class="btn"> Самовывоз со склада по адресу </label>
+                       <ul class="down">
+                           <li sam__map><a href=""><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2350.100895352568!2d27.597017816118473!3d53.91218298010154!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcfaea13749ab%3A0xe38f3edbf2b7e336!2z0YPQuy4g0J_Qu9Cw0YLQvtC90L7QstCwIDM0LCDQnNC40L3RgdC6!5e0!3m2!1sru!2sby!4v1586262923958!5m2!1sru!2sby" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe> </a></li>
+                       </ul>
+                       <br>
+                       <input id="dost" type="checkbox">
+                       <label for="dost" class="btn">Курьером по Минску</label>
+                       <ul class="down">
+                           <li><form action="#">
+                               <fieldset class="fieldset">
+                                   <legend>Курьером по Минску</legend>
+                                   <label>Улица</label>
+                                   <input type="text" required>
+                                   <br>
+                                   <label>Дом</label>
+                                   <input type="text" required>
+                               </fieldset>
+                           </form>
+                           </li>
+                       </ul>
+                      <div class="comment">
+                          <textarea class="comm__text" placeholder="коментарий"></textarea>                       
+                      </div>
+                      <input id="sog" type="checkbox" class="check" required>
+                      <label for="sog">Я прочитал и согласен с <a class="sog__link" href="#">условиями доставки</a></label>
+                      <br>
+                      <button type="submit" class="button">Подтвердить</button>
+                   </fieldset>
+               </form>
+           </div>
+        </div>
+    </main>
+
+</body>
+
+</html>

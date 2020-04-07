@@ -1,0 +1,187 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(./img/back.png)
+}
+
+
+p{
+    margin: 0;
+}
+
+.container{
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    
+}
+
+.store__head{
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 1%;
+    width: inherit;
+    max-width: inherit;
+    
+}
+
+.logo{
+    display: inline-block;
+    float: left;
+}
+
+.store__name{
+    display: inline-block;
+    float: right;
+    
+    
+}
+
+.store__name p{
+    font-size: 72px;
+    color: white;
+    text-transform: uppercase;
+    
+    
+}
+
+.lead__menu{
+    padding-left: 7%;
+    z-index: 1000;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header::after{
+    content: ' ';
+    display: block;
+    background-color: darkred;
+    top: 100%;
+    width: 100%;
+    height: 5px;
+}
+
+
+.drop__menu{
+    margin: 10px;
+    display: inline-block;
+   
+}
+
+.menu{
+    width: 250px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    background-color: dimgray;
+    padding: 10px;
+    display: block;
+    border-bottom: 2px solid darkred;
+    text-align: center;
+}
+
+.menu a:hover{
+    background-color: gray;
+}
+
+
+.list__menu{
+    position: relative;
+}
+
+
+.down__menu{
+    position: absolute;
+    width: 100%;
+    
+    
+    display: none;
+}
+
+.list__menu:hover .down__menu{
+    
+    display: block;
+}
+
+input{
+    margin: 10px;
+    background-color: dimgray;
+    border: none;
+    border-bottom: 2px solid darkred;
+    color: white;
+}
+
+.fieldset{
+    border: 3px solid darkred;
+}
+
+.byu{
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+input[type="checkbox"]{
+    display: none;
+}
+
+.btn{
+    display: inline-block;
+    background-color: dimgray;
+    border-bottom: 2px solid darkred;
+    margin: 5px 0;
+    cursor: pointer;
+ 
+}
+
+.sam__vyvoz{
+    position: relative;
+}
+.down{
+    display: none;
+    
+}
+
+input[type="checkbox"]:checked ~ .down{
+    display: block;
+    
+}
+
+.comment{
+    margin-top: 10px;
+}
+.comm__text{
+    width: 400px;
+    height: 200px;
+    background-color: dimgray;
+    color: white;
+    border: none;
+    border-bottom: 3px solid darkred;
+}
+
+.sog__link{
+    text-decoration: none;
+    color: aqua;
+}
+
+.check[type="checkbox"]{
+    display: inline-block;
+}
+
+.button{
+    border: none;
+    padding: 5px;
+    background-color: dimgray;
+    width: 150px;
+    height: 50px;
+    margin-top: 15px;
+    color: white;
+    font-size: 20px;
+}
+
