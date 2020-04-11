@@ -21,3 +21,8 @@
 * [Задание 1.Соцсеть фотографий и видео (Instagram)](https://github.com/AdukarIT/BashunAT/tree/master/advanced%20HTML/Instagram)
 * [Задание 2. Форма заказа такси](https://github.com/AdukarIT/BashunAT/tree/master/advanced%20HTML/taxi)
 
+
+
+## CSS. Float. Псевдоклассы. Сложные селекторы. Каскад
+
+* [Основы CSS. Позиционирование](https://github.com/AdukarIT/BashunAT/tree/master/css%20basics.%20positioning/store)
