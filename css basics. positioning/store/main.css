@@ -1,3 +1,8 @@
+
+/*---------------*/
+/*--общая фигня--*/
+/*---------------*/
+
 body{
     margin: 0;
     padding: 0;
@@ -9,12 +14,20 @@ p{
     margin: 0;
 }
 
+/*------------------*/
+/*--турбоконтейнер--*/
+/*------------------*/
+
 .container{
     width: 100%;
     max-width: 1300px;
     margin: 0 auto;
 
 }
+
+/*----------*/
+/*--голова--*/
+/*----------*/
 
 .store__head{
     box-sizing: border-box;
@@ -41,15 +54,25 @@ p{
     font-size: 72px;
     color: white;
     text-transform: uppercase;
-
-
 }
 
-.lead__menu{
-    margin-left: 10%;
-    z-index: 1000;
-    box-sizing: border-box;
+
+
+.header::after {
+    content: '';
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    height: 3px;
+    background-color: darkred;
+    top: 100%;
+    margin: 10px 0;
 }
+
+
+/*-------------------*/
+/*--выпадающее меню--*/
+/*-------------------*/
 
 ul{
     list-style: none;
@@ -57,132 +80,166 @@ ul{
     padding: 0;
 }
 
-.header::after{
-    content: ' ';
-    display: block;
-    background-color: darkred;
-    top: 100%;
-    width: 100%;
-    height: 5px;
-}
-
-
-.drop__menu{
-    margin: 10px;
-    display: inline-block;
-
-}
 
 .menu{
-    width: 250px;
+    margin: 15px 0;
 }
 
-.menu a{
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
-    background-color: dimgray;
-    padding: 10px;
+.menu__list{
     display: block;
-    border-bottom: 2px solid darkred;
+    width: 200px;
     text-align: center;
-}
 
-.menu a:hover{
-    background-color: gray;
-}
-
-
-.list__menu{
+    margin: 5px 10px;
     position: relative;
-}
-
-
-.down__menu{
-    position: absolute;
-    width: 100%;
-
-
-    display: none;
-}
-
-.list__menu:hover .down__menu{
-
-    display: block;
-}
-
-input{
-    margin: 10px;
     background-color: dimgray;
-    border: none;
-    border-bottom: 2px solid darkred;
-    color: white;
+
 }
 
-.fieldset{
-    border: 3px solid darkred;
-}
-
-.byu{
-    color: white;
-    font-size: 20px;
-    padding: 10px;
-}
-input[type="checkbox"]{
-    display: none;
-}
-
-.btn{
+.menu__item{
     display: inline-block;
-    background-color: dimgray;
-    border-bottom: 2px solid darkred;
-    margin: 5px 0;
-    cursor: pointer;
-
+    margin-left: 5%;
 }
 
-.sam__vyvoz{
-    position: relative;
-}
-.down{
-    display: none;
-
-}
-
-input[type="checkbox"]:checked ~ .down{
-    display: block;
-
-}
-
-.comment{
-    margin-top: 10px;
-}
-.comm__text{
-    width: 400px;
-    height: 200px;
-    background-color: dimgray;
+.menu__item a{
     color: white;
-    border: none;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
     border-bottom: 3px solid darkred;
 }
 
-.sog__link{
-    text-decoration: none;
-    color: aqua;
+.menu__item a:hover{
+    background-color: gray;
 }
 
-.check[type="checkbox"]{
+.menu__list:hover .menu__content{
+    display: block;
+}
+
+.menu__content{
+    display: none;
+    width: 100%;
+    position: absolute;
+
+    top:100%;
+    background-color: dimgray;
+}
+
+/*----------------*/
+/*--форма заказа--*/
+/*----------------*/
+
+
+
+.fieldset{
+    color: white;
+    font-size: 20px;
+    border: 2px solid darkred;
+    padding: 15px;
+}
+
+label{
+    font-size: 15px;
+    padding: 5px;
+    margin: 2px;
+}
+
+input[type="text"], [type="tel"], [type="email"]{
+    border: none;
+    background-color: dimgray;
+    border-bottom: 2px solid darkred;
+    color: white;
+    padding: 3px;
+    margin: 5px;
+    outline: 0;
+}
+
+input[type="radio"], [type="checkbox"]{
+    display: none;
+}
+
+iframe{
+    width: 600px;
+    height: 450px;
+    margin: 10px;
+}
+.map{
+    display: none;
+    margin: 10px;
+}
+
+.label__btn{
+    display: inline-block;
+    font-size: 20px;
+    padding: 2px;
+    background-color: dimgray;
+    margin: 5px;
+    border-bottom: 3px solid darkred;
+}
+input[type="radio"]:checked + .map{
+    display: block;
+}
+
+.payment__address{
+    margin-top: 20px;
+    display: none;
+}
+
+input[type="radio"]:checked + .payment__address {
+    display: block;
+}
+
+
+
+.check__addres{
+    display: none;
+}
+
+input[type="checkbox"]:checked + .check__addres{
+    display: block;
+}
+
+
+.textarea{
+    margin: 15px 0;
+    border: 0;
+    border-bottom: 3px solid darkred;
+    background-color: dimgray;
+    color: white;
+}
+
+.requared{
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.requared a{
+    color: aqua;
+    text-decoration: none;
+}
+
+.requared {
     display: inline-block;
 }
 
 .button{
-    border: none;
-    padding: 5px;
+    border: 0;
+    padding: 10px 35px;
+    color:   white;
+    border-bottom: 3px solid darkred;
     background-color: dimgray;
-    width: 150px;
-    height: 50px;
-    margin-top: 15px;
-    color: white;
-    font-size: 20px;
 }
 
+/*----------*/
+/*--footer--*/
+/*----------*/
+
+.our__addres{
+    color: white;
+    padding: 30px 5px 10px 5px;
+}
+
+.our__addres a{
+    color:aqua;
+}
