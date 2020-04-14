@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
@@ -22,151 +22,120 @@
     </header>
 
     <main>
-       <div class="lead__menu">
-       
-        <div class="drop__menu">
-            <div class="menu">
-                <ul class="ul__menu">
-                    <li class="list__menu"><a href="#">Бытовая техника </a>
-                        <ul class="down__menu">
-                            <li><a href="#"> Стиральные машины</a></li>
-                            <li><a href="#">Стиральные машины</a></li>
-                            <li><a href="#">Пылесосы</a></li>
-                            <li><a href="#">Швейные, вышивальные машины</a></li>
-                            <li><a href="#">Утюги</a></li>
-                            <li><a href="#">Электровеники</a></li>
-                            <li><a href="#">Сушилки для обуви</a></li>
-                            
+        <div class="menu">
+            <div class="container">
+                <ul class="menu__item">
+                    <li class="menu__list"><a href="">Бытовая техника </a>
+                        <ul class="menu__content">
+                            <li><a href="">Стиральные машины</a></li>
+                            <li><a href="">Стиральные машины</a></li>
+                            <li><a href="">Пылесосы</a></li>
+                            <li><a href="">Швейные, вышивальные машины</a></li>
+                            <li><a href="">Утюги</a></li>
+                            <li><a href="">Электровеники</a></li>
+                            <li><a href="">Сушилки для обуви</a></li>
                         </ul>
                     </li>
-
                 </ul>
-
-            </div>
-
-        </div>
-
-        <div class="drop__menu">
-            <div class="menu">
-                <ul class="ul__menu">
-                    <li class="list__menu"><a href="#">Техника для кухни </a>
-                        <ul class="down__menu">
-                            <li><a href="#"> Холодильники</a></li>
-                            <li><a href="#"> Кухонные плиты</a></li>
-                            <li><a href="#"> Морозильники</a></li>
-                            <li><a href="#"> Настольные плиты</a></li>
-                            <li><a href="#"> Ростеры, мини-печи</a></li>
-                            <li><a href="#"> Вытяжки</a></li>
-                            <li><a href="#"> Микроволновые печи</a></li>
-                            
+                <ul class="menu__item">
+                    <li class="menu__list"><a href="">Техника для кухни</a>
+                        <ul class="menu__content">
+                            <li><a href="">Холодильники</a></li>
+                            <li><a href="">Кухонные плиты</a></li>
+                            <li><a href="">Морозильники</a></li>
+                            <li><a href="">Настольные плиты</a></li>
+                            <li><a href="">Ростеры, мини-печи</a></li>
+                            <li><a href="">Вытяжки</a></li>
+                            <li><a href="">Микроволновые печи</a></li>
                         </ul>
                     </li>
-
                 </ul>
-
-            </div>
-
-        </div>
-
-        <div class="drop__menu">
-           
-            <div class="menu">
-                <ul class="ul__menu">
-                    <li class="list__menu"><a href="#">Компьютерная техника</a>
-                        <ul class="down__menu">
-                            <li><a href="#"> Ноутбуки</a></li>
-                            <li><a href="#"> Планшеты</a></li>
-                            <li><a href="#"> Компьютеры, моноблоки</a></li>
-                            <li><a href="#"> Игровые приставки</a></li>
-                            <li><a href="#"> Серверное оборудование</a></li>
-                            
+                <ul class="menu__item">
+                    <li class="menu__list"><a href="">Компьютерная техника</a>
+                        <ul class="menu__content">
+                            <li><a href="">Ноутбуки</a></li>
+                            <li><a href="">Планшеты</a></li>
+                            <li><a href="">Компьютеры, моноблоки</a></li>
+                            <li><a href="">Игровые приставки</a></li>
+                            <li><a href="">Серверное оборудование</a></li>
                         </ul>
                     </li>
-
                 </ul>
-
-            </div>
-            
-        </div>
-
-        <div class="drop__menu">
-            <div class="menu">
-                <ul class="ul__menu">
-                    <li class="list__menu"><a href="#">Корзин</a>
-<!--
-                        <ul class="down__menu">
-                            <li><a href="#"> werwerwerwerwe</a></li>
-                            <li><a href="#"> werwerwerwerwe</a></li>
-                            <li><a href="#"> werwerwerwerwe</a></li>
-                            <li><a href="#"> werwerwerwerwe</a></li>
-                            <li><a href="#"> werwerwerwerwe</a></li>
-                            <li><a href="#"> werwerwerwerwe</a></li>
-                            <li><a href="#"> werwerwerwerwe</a></li>
-                            <li><a href="#"> werwerwerwerwe</a></li>
+                <ul class="menu__item">
+                    <li class="menu__list"><a href="">Корзина </a>
+                        <ul class="menu__content">
                         </ul>
--->
                     </li>
-
                 </ul>
-
             </div>
+        </div>
+        <!--меню-->
+        <div class="order__form">
+            <div class="container">
+                <form action="#">
+                    <fieldset class="fieldset">
+                        <legend>Форма заказа</legend>
+                        <label for="customer__name">Имя фамилия:</label>
+                        <input type="text" id="customer__name" required>
+                        <br>
+                        <label for="customer__number">Номер телефона:</label>
+                        <input type="tel" required id="customer__number">
+                        <br>
+                        <label for="customer__email">Электронная почта:</label>
+                        <input type="email" required id="customer__email">
+                        <br>
+                        <p>Cпособ доставки:</p>
 
-        </div>
-        
-        </div>
-        
-        <div class="byu">
-           <div class="container">
-               <form action="#">
-                   <fieldset class="fieldset">
-                       <legend>Форма заказа</legend>
-                       <label>Фамилия и имя
-                          <input type="text" required >   
-                       </label>
-                       <br>
-                       <label>Номер телефона
-                           <input type="tel"  required>
-                       </label>
-                       <br>
-                       <label>E-mail
-                           <input type="email" required>
-                       </label>
-                       <br>
-                       <p class="p__sam">Выберите способ доставки</p>
-                       
-                       <input id="sam" type="checkbox" >
-                       <label for="sam" class="btn"> Самовывоз со склада по адресу </label>
-                       <ul class="down">
-                           <li sam__map><a href=""><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2350.100895352568!2d27.597017816118473!3d53.91218298010154!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcfaea13749ab%3A0xe38f3edbf2b7e336!2z0YPQuy4g0J_Qu9Cw0YLQvtC90L7QstCwIDM0LCDQnNC40L3RgdC6!5e0!3m2!1sru!2sby!4v1586262923958!5m2!1sru!2sby" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe> </a></li>
-                       </ul>
-                       <br>
-                       <input id="dost" type="checkbox">
-                       <label for="dost" class="btn">Курьером по Минску</label>
-                       <ul class="down">
-                           <li><form action="#">
-                               <fieldset class="fieldset">
-                                   <legend>Курьером по Минску</legend>
-                                   <label>Улица</label>
-                                   <input type="text" required>
-                                   <br>
-                                   <label>Дом</label>
-                                   <input type="text" required>
-                               </fieldset>
-                           </form>
-                           </li>
-                       </ul>
-                      <div class="comment">
-                          <textarea class="comm__text" placeholder="коментарий"></textarea>                       
-                      </div>
-                      <input id="sog" type="checkbox" class="check" required>
-                      <label for="sog">Я прочитал и согласен с <a class="sog__link" href="#">условиями доставки</a></label>
-                      <br>
-                      <button type="submit" class="button">Подтвердить</button>
-                   </fieldset>
-               </form>
-           </div>
+                        <label for="payment__map" class="label__btn">Самовывоз со склада по адресу адрес</label>
+                        <input type="radio" name="payment" id="payment__map">
+                        <ul class="map">
+                            <li><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2350.1008953525707!2d27.597017816193283!3d53.9121829801016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcfaea13749ab%3A0xe38f3edbf2b7e336!2z0YPQuy4g0J_Qu9Cw0YLQvtC90L7QstCwIDM0LCDQnNC40L3RgdC6!5e0!3m2!1sru!2sby!4v1586619214310!5m2!1sru!2sby"></iframe></li>
+                        </ul>
+                        <br>
+
+                        <label for="payment__customer" class="label__btn">Курьером по Минску:</label>
+                        <input type="radio" name="payment" id="payment__customer">
+                        <ul class="payment__address">
+                            <li>
+                                <fieldset class="fieldset">
+
+                                    <label for="address" class="label__btn">Адрес доставки</label>
+                                    <input type="checkbox" id="address">
+                                    <ul class="check__addres">
+                                        <li>
+                                            <label for="payment__address">Ввtдите адрес</label>
+                                            <input type="text" required id="payment__address">
+                                        </li>
+                                    </ul>
+                                </fieldset>
+                            </li>
+                        </ul>
+                        <br>
+                        <textarea class="textarea" name="comment" id="comment" cols="50" rows="10" placeholder="коментарий"></textarea>
+                        <br>
+                        <input type="checkbox" class="requared" id="checked" required>
+                        <label for="checked" class="requared">"Я прочитал и согласен с <span><a href="#">условиями доставки</a></span>"</label>
+                        <br>
+                        <button type="submit" name="order" class="button">Заказать</button>
+                    </fieldset>
+                </form>
+                <!--форма заказа-->
+            </div>
         </div>
     </main>
+    <footer class="header">
+        <address>
+            <div class="container">
+               <div class="our__addres">
+                <p>Время работы: 9 - 17</p>
+
+                <p>Наш Адресс: г.Минск Платонова 34</p>
+                <p>Телефон: <a href="tel:+3785848422311">3785848422311</a></p>
+                <p>Skype: <a href="skype:echo123">рога и копыта</a> </p>
+                </div>
+            </div>
+        </address>
+    </footer>
 
 </body>
 
