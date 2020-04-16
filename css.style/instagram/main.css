@@ -1,0 +1,63 @@
+
+
+/*----------------*/
+/*--all_nonsense--*/
+/*----------------*/
+
+body{
+    margin: 0;
+}
+
+@font-face{
+    font-family: SF Distant Galaxy;
+    src: url(fonts/SF Distant Galaxy.TTF)
+}
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+    padding: 1%;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: orangered;
+    font-family: Play;
+    font-weight: 700;
+}
+
+
+/*----------*/
+/*--header--*/
+/*----------*/
+
+.header{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.header::after{
+    content: "";
+    height: 3px;
+    width: 100%;
+    background-color: orangered;
+    position: relative;
+    top: 100%;
+    display: inline-block;
+}
+
+
+.header__logo{
+    width: 200px;
+    float: left; 
+}
+
+
+.header__name{
+    font-family: SF Distant Galaxy;
+    float: right;
+    font-size: 70px;
+    margin: 0;
+    text-transform: uppercase;
+}
