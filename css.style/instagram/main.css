@@ -1,19 +1,41 @@
 
+/*------------------*/
+/*--с3,14жаный код--*/
+/*------------------*/
 
-/*----------------*/
-/*--all_nonsense--*/
-/*----------------*/
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px orangered; 
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px orangered; 
+}
+
+
+/*-----------------*/
+/*--all__nonsense--*/
+/*-----------------*/
 
 body{
     margin: 0;
+    font-family: play;
+    color: white;
+    background-color: #292727;
+
 }
 
 @font-face{
-    font-family: SF Distant Galaxy;
-    src: url(../fonts/SF Distant Galaxy.TTF);
-    font-weight: bold;
-    font-style: normal;
+    font-family: Aire Exterior;
+    src: url(fonts/18685.TTF);
 }
+
+
 
 .container{
     width: 100%;
@@ -23,11 +45,91 @@ body{
 }
 
 a{
+
     text-decoration: none;
     color: orangered;
     font-family: Play;
     font-weight: 700;
+    margin-bottom: 50px;
 }
+
+
+
+
+.feed__content{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    
+
+    
+}
+
+
+iframe{
+    width: 400px;
+    height: 400px;
+    object-fit: fill;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+li{
+    padding: 2%;
+    
+}
+
+.textarea{
+    border: 1px solid orangered;
+    background-color: #292727;
+    border-radius: 15px;
+    width: 100%;
+}
+
+.button{
+    
+    
+    border: 1px solid orangered;
+    background: #292727;
+    color: white;
+    border-radius: 25px;
+    padding: 5px 15px;
+    margin-top: 5px;
+}
+
+.button:hover{
+    background-color: orangered;
+}
+
+h2, h4{
+    display: inline-block;
+    
+    margin: 0;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.avatar{
+    display: inline-block;
+    float: left;
+    object-fit: cover;
+    width: 70px;
+    height: 70px;
+    border-radius: 100px;
+    border: 1px solid orangered;
+    margin: 10px;
+}
+
+.avatar__comment{
+    width: 50px;
+    height: 50px;
+}
+
 
 
 /*----------*/
@@ -36,7 +138,7 @@ a{
 
 .header{
     display: inline-block;
-    vertical-align: middle;
+
 }
 
 .header::after{
@@ -47,20 +149,102 @@ a{
     position: relative;
     top: 100%;
     display: inline-block;
+    border-radius: 3px;
 }
 
 
 .header__logo{
+    
     width: 200px;
-    float: left; 
+    float: left;
 }
 
 
 .header__name{
-    font-family: SF Distant Galaxy;
+    
+    font-family:Aire Exterior;
     float: right;
     font-weight: 700;
     font-size: 70px;
     margin: 0;
     text-transform: uppercase;
 }
+
+
+/*--------*/
+/*--main--*/
+/*--------*/
+
+
+.add{
+    margin: 3% 0 5% 3%;
+
+}
+
+.add__foto{
+    font-size: 30px;
+    padding: 5px 45px;
+    border: 4px solid orangered;
+    border-radius: 30px;
+
+}
+
+.add__foto:hover{
+    background-color: orangered;
+    color: white;
+
+}
+
+.post{
+    box-sizing: content-box;
+    display: inline-block;
+    float: left;
+    width: 45%;
+    padding: 10px;
+    height: 550px;
+    overflow: auto;
+    margin: 15px;
+    
+   
+
+}
+
+.post::before{
+    content: "";
+    width: 100%;
+    height: 3px;
+    background-color: orangered;
+    display: inline-block;
+    border-radius: 3px;
+    
+}
+
+.post::after{
+    content: "";
+    width: 100%;
+    height: 3px;
+    background-color: orangered;
+    display: inline-block;
+    border-radius: 3px;
+    
+}
+
+
+.comment{
+    display: inline-block;
+}
+
+.comment::before{
+    
+    content: "";
+    width: 100%;
+    height: 3px;
+    background-color: orangered;
+    display: inline-block;
+    position: relative;
+    margin-bottom: 5px;
+    border-radius: 3px;
+}
+
+
+
