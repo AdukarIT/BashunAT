@@ -4,7 +4,7 @@
 
 <head>
 
-    <meta charset="UTF-8" >
+    <meta charset="UTF-8">
     <title>feed</title>
     <link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="main.css">
@@ -12,7 +12,7 @@
 
 <body>
     <header class="container header">
-        <a href="feed.html" >
+        <a href="feed.html">
             <img src="./img/header/logo.png" alt="logo resistagram" class="header__logo">
 
             <p class="header__name">Resistagram</p>
@@ -24,39 +24,45 @@
         </div>
 
         <article class="post">
-           
-               <a id="kaz" href="#"><img src="./img/Feed/kaz.jpeg" alt="avatar kaz" class="avatar">
-           
-            <h2> Kazuda "Kaz" Xiono</h2></a>
-            
+
+            <h2 class="avatar__nick">
+                <a id="kaz" href="#"><img src="./img/Feed/kaz.jpeg" alt="avatar kaz" class="avatar">
+
+                    <p class="nick">Kazuda "Kaz" Xiono</p></a>
+            </h2>
+
             <img src="./img/Feed/kaz.jpeg" alt="Каз пилот" class="feed__content">
             <p>Я
                 <a id="best" href="feed.html">#лучиший</a>
                 <a id="pilot" href="feed.html">#пилот</a>в этой
                 <a id="galaxy" href="feed.html">#галактики</a>
             </p>
-            <ul>
-                <li>
-                   <a href="#buck"><img src="./img/Feed/bucketava.jpg" alt="bucket ava" class="avatar avatar__comment">
-                    <h4>Bucket</h4></a>
-                    <ul>
-                        <li>
-                            <p>bup beep bup bup be be beep <br>(не смеши мои железяки)) )</p>
-                        </li>
-                    </ul>
-                </li>
-            </ul>
-            <ul>
-                <li>
-                   <a href="#tam"><img src="./img/Feed/tam.jpg" alt="tam avatar" class="avatar avatar__comment">
-                       <h4>Tamara "Tam" Ryvora</h4></a>
-                    <ul>
-                        <li>
-                            <p><a href="feed.html">#лучший</a> "убийца" истребителей! ты ещё денег за ремонт должен!!!!</p>
-                        </li>
-                    </ul>
-                </li>
-            </ul>
+            <div>
+
+                <h4 class="avatar__nick">
+                    <a href="#buck"><img src="./img/Feed/bucketava.jpg" alt="bucket ava" class="avatar avatar__comment">
+                        <p class="nick">Bucket</p></a>
+                </h4>
+                <p>
+
+                    bup beep bup bup be be beep <br>(не смеши мои железяки)
+                </p>
+
+
+
+            </div>
+            <div>
+                <h4 class="avatar__nick">
+                    <a href="#tam"><img src="./img/Feed/tam.jpg" alt="tam avatar" class="avatar avatar__comment">
+                        <p class="nick">Tamara "Tam" Ryvora</p></a>
+                </h4>
+                <p>
+
+                    <a href="feed.html">#лучший</a> "убийца" истребителей! ты ещё денег за ремонт должен!!!!
+
+                </p>
+
+            </div>
             <div class="comment">
                 <form action="feed.html">
                     <textarea name="comment" placeholder="коментировать" cols="50" rows="8" wrap="soft" class="textarea"></textarea>
@@ -65,40 +71,49 @@
             </div>
         </article> <!-- kazuda post -->
 
-        <article class="post"><a id="tam" href="feed.html">
-           <img src="./img/Feed/tam.jpg" alt="tam avatar" class="avatar">
-            <h2>Tamara "Tam" Ryvora</h2></a>
-            <iframe  src="https://www.youtube.com/embed/ECCAnTPLbUY" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <article class="post">
+            <h2 class="avatar__nick">
+                <a id="tam" href="feed.html">
+                    <img src="./img/Feed/tam.jpg" alt="tam avatar" class="avatar">
+                    <p class="nick">Tamara "Tam" Ryvora</p></a>
+            </h2>
+            <iframe src="https://www.youtube.com/embed/ECCAnTPLbUY" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <p>
                 <a href="feed.html">#трейлер</a> с нашим участием для
                 <a href="feed.html">#StarWars</a>
             </p>
-            <ul>
-                <li>
-                   <a href="#kaz"><img src="./img/Feed/kaz.jpeg" alt="avatar kaz" class="avatar avatar__comment">
-                    <h4>Kazuda "Kaz" Xiono</h4></a>
-                    <ul>
-                        <li>
-                            <p>А я тут красаУчег! я
+            <div>
+
+                    <h4 class="avatar__nick">
+                        <a href="#kaz"><img src="./img/Feed/kaz.jpeg" alt="avatar kaz" class="avatar avatar__comment">
+                            <p class="nick">Kazuda "Kaz" Xiono</p>
+                        </a>
+                    </h4>
+                    <p>
+
+                            А я тут красаУчег! я
                                 <a href="#best">#лучший</a>
                                 <a href="#pilot">#пилот</a>
                                 <a href="#galaxy">#галактики</a>
                                 !
-                            </p>
-                        </li>
-                    </ul>
-                </li>
-            </ul>
-            <ul>
-                <li>
-                   <a href="#buck">
-                   <img src="./img/Feed/bucketava.jpg" alt="bucket ava" class="avatar avatar__comment">
-                    <h4>Bucket</h4></a>
-                    <ul>
-                        <li>beep bop beep <br>(спасибо за видео)</li>
-                    </ul>
-                </li>
-            </ul>
+
+
+                    </p>
+
+            </div>
+            <divl>
+
+                    <h4 class="avatar__nick">
+                        <a href="#buck">
+                            <img src="./img/Feed/bucketava.jpg" alt="bucket ava" class="avatar avatar__comment">
+                            <p class="nick">Bucket</p>
+                        </a>
+                    </h4>
+                    <p>
+                        beep bop beep <br>(спасибо за видео)
+                    </p>
+
+            </divl>
             <div class="comment">
                 <form action="feed.html">
                     <textarea name="comment" placeholder="коментировать" cols="50" rows="8" wrap="soft" class="textarea"></textarea>
@@ -108,26 +123,32 @@
         </article> <!-- tam post -->
 
         <article class="post">
-           <a id="buck" href="feed.html">
-           <img src="./img/Feed/bucketava.jpg" alt="bucket ava" class="avatar">
-            <h2>Bucket</h2></a>
-            
-            <img  src="./img/Feed/bucket.jpg" alt="Bucket" class="feed__content">
+            <h2 class="avatar__nick">
+                <a id="buck" href="feed.html">
+                    <img src="./img/Feed/bucketava.jpg" alt="bucket ava" class="avatar">
+                    <p class="nick">Bucket</p>
+                </a>
+            </h2>
+
+            <img src="./img/Feed/bucket.jpg" alt="Bucket" class="feed__content">
             <p>Beep
                 <a href="feed.html">#Fire</a> be
                 <a href="feed.html">#Warrior</a> boop
                 <a href="feed.html">#Berserker</a>
             </p>
-            <ul>
-                <li>
-                  <a href="#tam">
-                   <img src="./img/Feed/tam.jpg" alt="tam avatar" class="avatar avatar__comment">
-                    <h4>Tamara "Tam" Ryvora</h4></a>
-                    <ul>
-                        <li>самый безстрашный из нас!!!!</li>
-                    </ul>
-                </li>
-            </ul>
+            <div>
+
+                    <h4 class="avatar__nick">
+                        <a href="#tam">
+                            <img src="./img/Feed/tam.jpg" alt="tam avatar" class="avatar avatar__comment">
+                            <p class="nick">Tamara "Tam" Ryvora</p>
+                        </a>
+                    </h4>
+                    <p>
+                        самый безстрашный из нас!!!!
+                    </p>
+
+            </div>
             <div class="comment">
                 <form action="feed.html">
                     <textarea name="comment" placeholder="коментировать" cols="50" rows="8" wrap="soft" class="textarea"></textarea>
@@ -135,6 +156,92 @@
                 </form>
             </div>
         </article><!-- bucket post-->
+
+        <article class="post">
+            <h2 class="avatar__nick">
+                <a id="buck" href="feed.html">
+                    <img src="./img/Feed/yegerava.png" alt="Yeger ava" class="avatar">
+                    <p class="nick">Yeger</p>
+                </a>
+            </h2>
+
+            <img src="./img/Feed/yeger.jpg" alt="Yeger" class="feed__content">
+            <p>Самый эпичный
+                <a href="feed.html">#Шлем</a> в
+                <a href="feed.html">#Галактике</a>
+
+            </p>
+            <div>
+
+                    <h4 class="avatar__nick">
+                        <a href="#tam">
+                            <img src="./img/Feed/tam.jpg" alt="tam avatar" class="avatar avatar__comment">
+                            <p class="nick">Tamara "Tam" Ryvora</p>
+                        </a>
+                    </h4>
+                    <p>
+                        Ага... Когда ты в нем ты только эпично разбиваешь истребители... свои истребители...
+                    </p>
+
+            </div>
+            <div class="comment">
+                <form action="feed.html">
+                    <textarea name="comment" placeholder="коментировать" cols="50" rows="8" wrap="soft" class="textarea"></textarea>
+                    <button type="submit" name="addcomment" class="button">отправить</button>
+                </form>
+            </div>
+        </article><!-- yeger post -->
+
+        <article class="post">
+            <h2 class="avatar__nick">
+                <a id="buck" href="feed.html">
+                    <img src="./img/Feed/neekuava.png" alt="Neeku ava" class="avatar">
+                    <p class="nick">Neeku Vozo</p>
+                </a>
+            </h2>
+
+            <img src="./img/Feed/neeku.png" alt="neeku" class="feed__content">
+            <p>мой новый
+                <a href="feed.html">#лучший</a>
+                <a href="feed.html">#друг</a>
+
+            </p>
+            <div>
+
+                    <h4 class="avatar__nick">
+                        <a href="#tam">
+                            <img src="./img/Feed/tam.jpg" alt="tam avatar" class="avatar avatar__comment">
+                            <p class="nick">Tamara "Tam" Ryvora</p>
+                        </a>
+                    </h4>
+                    <p>
+                        Твой друг чуть не съел пол истребителя
+                    </p>
+
+            </div>
+
+            <div>
+
+                    <h4 class="avatar__nick">
+                        <a href="#kaz"><img src="./img/Feed/kaz.jpeg" alt="avatar kaz" class="avatar avatar__comment">
+                            <p class="nick">Kazuda "Kaz" Xiono</p>
+                        </a>
+                    </h4>
+                    <p>
+
+                            И меня тоже!!!!
+                    </p>
+
+            </div>
+            <div class="comment">
+                <form action="feed.html">
+                    <textarea name="comment" placeholder="коментировать" cols="50" rows="8" wrap="soft" class="textarea"></textarea>
+                    <button type="submit" name="addcomment" class="button">отправить</button>
+                </form>
+            </div>
+        </article> <!-- neeku post -->
+
+
     </main>
 
 </body>
