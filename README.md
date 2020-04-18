@@ -26,3 +26,9 @@
 ## CSS. Float. Псевдоклассы. Сложные селекторы. Каскад
 
 * [Основы CSS. Позиционирование](https://github.com/AdukarIT/BashunAT/tree/master/css%20basics.%20positioning/store)
+
+
+## Изображения. Шрифты. Иконки
+
+* [Пляж](https://github.com/AdukarIT/BashunAT/tree/master/css.style/beach)
+* [Соцсеть фотографий и видео (Instagram)](https://github.com/AdukarIT/BashunAT/tree/master/css.style/instagram)
