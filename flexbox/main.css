@@ -40,8 +40,9 @@ a{
 .page__header{
     position: relative;
     height: 42px;
+/*    display: inline-block;*/
     display: flex;
-/*    justify-content: space-between;*/
+
 }
 
 
@@ -70,23 +71,31 @@ a{
 }
 
 .header__input--serch{
-
-    padding: 6px 6px 6px 19px;
-    margin: 7px 0;
-        border-radius: 42px;
+    width: 197px;
+    height: 16px;
     border: none;
-
+    border-radius: 42px;
+    
     background-color: #224b7a;
+    margin: 7px 0;
+    background-size: 15px;
     background-image: url(./img/logo/icon/search.svg);
     background-repeat: no-repeat;
-    background-size: 15px;
+    padding: 6px 6px 6px 19px;
     background-position: left center;
     border-left: 8px solid transparent;
+    
 }
+
+.header__input--serch:focus{
+    background-color: white;
+}
+
+
+
 .header__input{
-    width: 230px;
-    height: 16px;
-    border-radius: 42px;
+    width: 240px;
+    margin-right: 10px;
 }
 
 
@@ -97,9 +106,103 @@ a{
 
 }
 
+.header__navigation{
+    display: flex;
+}
+
+.navigation__bell{
+    
+    background-image: url(./img/logo/icon/bell.svg)
+}
+
+.navigation__music{
+    
+   
+    background-image: url(./img/logo/icon/audio.svg);
+}
+
+.navigation__video{
+    
+    background-image: url(./img/logo/icon/video.png);
+}
+
+.navigation__icon{
+    width: 20px;
+    height: 20px;
+    margin: 11px;
+}
+
+
+
+.header__navigation:hover{
+    background-color: #224b7a;
+    
+}
+
+
 .header__user{
+    width: 125px;
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 2;
+    
+}
 
-    background-color: red;
-    margin: auto 0;
 
+
+.header__user:hover{
+    background-color: #224b7a;
+}
+
+
+
+
+.top__user__avatar{
+    width: 28px;
+    height: 28px;
+    border-radius: 14px;
+    margin: 7px 0;
+}
+
+.user__name{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+/*--------*/
+/*--main--*/
+/*--------*/
+
+.main{
+    display: flex;
+}
+
+.main__menu{
+    height: 600px;
+    background-color: green;
+    
+    
+    width: 165px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main__content{
+   background-color: aqua;
+    height: 600px;
+    
+     width: 550px;
+    padding-top: 10px;
+    
+}
+
+.content__menu{
+    background-color: royalblue;
+    height: 600px;
+    
+    
+    width: 230px;
+    padding-top: 10px;
 }
