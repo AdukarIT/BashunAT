@@ -126,6 +126,8 @@ a{
     background-image: url(./img/logo/icon/video.png);
 }
 
+
+
 .navigation__icon{
     width: 20px;
     height: 20px;
@@ -144,7 +146,7 @@ a{
     width: 125px;
     display: flex;
     justify-content: flex-end;
-    flex-grow: 2;
+    margin-left: auto;
     
 }
 
@@ -179,14 +181,93 @@ a{
 }
 
 .main__menu{
-    height: 600px;
-    background-color: green;
+    
     
     
     width: 165px;
     padding-top: 10px;
-    display: flex;
-    flex-direction: column;
+    
+    
+}
+
+.main__menu__home{
+    color: #4a76a8; 
+  
+}
+
+.main__menu__item{
+    display: inline-block;
+    font-weight: 400;
+    font-size: 18px;
+
+}
+
+.main__menu__link{
+    width: 150px;
+    height: 28px;
+}
+
+.main__menu__link:hover{
+    background-color: #b4d6d9;
+}
+
+.menu__home{
+    vertical-align: middle;
+    display: inline-block;
+    position: relative;
+    width: 25px;
+    height: 25px;
+    background-size: 25px;
+    
+    
+}
+
+.icon__home{
+    background-image: url(./img/logo/icon/home.png);
+}
+
+.icon__news{
+    background-image: url(./img/logo/icon/news.png);
+}
+
+.icon__messages{
+    
+    background-image: url(./img/logo/icon/message.png);
+}
+
+.icon__freinds{
+    background-image: url(./img/logo/icon/freinds.png);
+}
+
+.icon__users{
+    background-image: url(./img/logo/icon/users.png);
+}
+
+.icon__foto{
+    background-image: url(./img/logo/icon/foto.png);
+}
+
+.icon__music{
+    background-image: url(./img/logo/icon/audio.svg);
+}
+
+.icon__video{
+    background-image: url(./img/logo/icon/video.png);
+}
+
+.icon__games{
+    background-image: url(./img/logo/icon/video.png);
+}
+
+.main__menu__home{
+    display: inline-block;
+}
+
+
+ol{
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 .main__content{
@@ -203,6 +284,6 @@ a{
     height: 600px;
     
     
-    width: 230px;
+    width: 245px;
     padding-top: 10px;
 }
