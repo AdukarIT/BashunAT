@@ -32,3 +32,8 @@
 
 * [Пляж](https://github.com/AdukarIT/BashunAT/tree/master/css.style/beach)
 * [Соцсеть фотографий и видео (Instagram)](https://github.com/AdukarIT/BashunAT/tree/master/css.style/instagram)
+
+
+## Flexbox
+
+* [VK](https://github.com/AdukarIT/BashunAT/tree/master/flexbox)
