@@ -1,7 +1,7 @@
 
-/*---------------*/
-/*--all__nonsense*/
-/*---------------*/
+/*-----------------*/
+/*--all__nonsense--*/
+/*-----------------*/
 
 
 body{
@@ -17,6 +17,8 @@ body{
     max-width: 960px;
     margin: 0 auto;
     padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
 }
 
 a{
@@ -24,6 +26,13 @@ a{
     margin: 0;
     padding: 0;
     cursor: pointer;
+}
+
+hr{
+    background-color: dimgray;
+    height: 1px;
+    width: 85%;
+    opacity: 0.5;
 }
 
 /*----------*/
@@ -78,7 +87,7 @@ a{
     height: 16px;
     border: none;
     border-radius: 42px;
-    
+
     background-color: #224b7a;
     margin: 7px 0;
     background-size: 15px;
@@ -87,7 +96,8 @@ a{
     padding: 6px 6px 6px 19px;
     background-position: left center;
     border-left: 8px solid transparent;
-    
+    outline: none;
+
 }
 
 .header__input--serch:focus{
@@ -114,18 +124,18 @@ a{
 }
 
 .navigation__bell{
-    
+
     background-image: url(./img/logo/icon/bell.svg)
 }
 
 .navigation__music{
-    
-   
+
+
     background-image: url(./img/logo/icon/audio.svg);
 }
 
 .navigation__video{
-    
+
     background-image: url(./img/logo/icon/video.png);
 }
 
@@ -141,7 +151,7 @@ a{
 
 .header__navigation:hover{
     background-color: #224b7a;
-    
+
 }
 
 
@@ -150,7 +160,7 @@ a{
     display: flex;
     justify-content: flex-end;
     margin-left: auto;
-    
+
 }
 
 
@@ -180,29 +190,26 @@ a{
 /*--main--*/
 /*--------*/
 
-.main{
-    display: flex;
-}
+
 
 .main__menu{
-    
-    
-    
-    width: 165px;
+    position: relative;
+    float: left;
+    width: 150px;
     padding-top: 10px;
-    
-    
+
+
 }
 
 .main__menu__home{
-    color: #4a76a8; 
-  
+    color: #4a76a8;
+
 }
 
 .main__menu__item{
     display: inline-block;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 13px;
 
 }
 
@@ -222,8 +229,8 @@ a{
     width: 25px;
     height: 25px;
     background-size: 25px;
-    
-    
+
+
 }
 
 .icon__home{
@@ -235,7 +242,7 @@ a{
 }
 
 .icon__messages{
-    
+
     background-image: url(./img/logo/icon/message.png);
 }
 
@@ -276,21 +283,24 @@ ol{
 
 
 
-.content__menu{
-    background-color: royalblue;
-    height: 600px;
-    
-    
-    width: 245px;
-    padding-top: 10px;
-}
+
 
 /*-----------------*/
 /*--main__content--*/
 /*-----------------*/
 
+/*
+.content__size{
+    display: flex;
+    flex-direction: column;
+    float: left;
+    position: static;
+    display: block;
+}
+*/
+
 .main__content{
-    height: 700px;
+
     width: 550px;
     padding: 15px 20px;
     background-color: white;
@@ -367,7 +377,7 @@ ol{
     display: flex;
     justify-content: space-between;
     height: 30px;
-    
+
 }
 
 
@@ -382,7 +392,7 @@ ol{
 
 .status__icon__image{
     width: 24px;
-    
+
 }
 .status__icon{
     display: flex;
@@ -396,7 +406,7 @@ ol{
     margin: 0;
     font-weight: 700;
     margin: 5px;
-    
+
 }
 
 .comment__add::before{
@@ -433,6 +443,7 @@ ol{
     padding: 10px 0 10px 13px;
     border: none;
     margin-left: 5px;
+    outline: none;
 
 }
 
@@ -453,3 +464,107 @@ ol{
 .comment__smile:hover{
     background-color: #67707a;
 }
+
+/*-----------------*/
+/*--content__menu--*/
+/*-----------------*/
+
+/*
+.content__menu__pos{
+    position: fixed;
+    float: right;
+}
+*/
+
+
+input[type="radio"]{
+    display: none;
+
+}
+
+.news__list{
+    display: none;
+    list-style: none;
+    font-size: 13px;
+}
+
+input[type="radio"]:checked +.news__list{
+    display: block;
+
+
+}
+
+input[type="radio"]:active + news{
+    color: red;
+}
+
+.content__menu{
+
+    background-color: white;
+    margin-top: 15px;
+    margin-left: 12px;
+    height: 330px;
+    border-radius: 7px;
+
+    width: 230px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.news{
+    font-size: 13px;
+
+    color: #4a76a8;
+    height: 25px;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding-left: 20px;
+
+}
+
+.news:hover{
+    background-color: lightgray;
+}
+
+.news__list__link{
+    color: dimgray;
+}
+
+.news__list__item{
+    padding: 5px;
+    color: gray;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    height: 20px;
+    padding-left: 40px;
+
+}
+
+
+
+.news__list__item:hover{
+    background-color: lightgray;
+}
+
+.interesting{
+    height: 30px;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 0;
+
+}
+
+.interesting__menu{
+    padding-left: 20px;
+}
+
+.interesting__checkbox{
+    box-sizing: border-box;
+    margin: 0;
+    margin-left: 20px;
+}
+
