@@ -37,3 +37,9 @@
 ## Flexbox
 
 * [VK](https://github.com/AdukarIT/BashunAT/tree/master/flexbox)
+
+## Animation
+
+* [Ball](https://github.com/AdukarIT/BashunAT/tree/master/animation/ball)
+* [Fan](https://github.com/AdukarIT/BashunAT/tree/master/animation/fan)
+* [Sub-Zero](https://github.com/AdukarIT/BashunAT/tree/master/animation/sub-zero)
