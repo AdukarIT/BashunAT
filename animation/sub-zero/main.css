@@ -1,0 +1,31 @@
+.container{
+    width: 100px;
+    height: 135px;
+    margin: 0 auto;
+}
+
+.sub__zero {
+    background-image: url(img/sub-zero.jpg);
+    display: inline-block;
+    width: 66px;
+    height: 135px;
+
+}
+
+
+ .sub__zero{
+    animation-name: move;
+    animation-duration: 0.3s;
+    animation-timing-function: steps(6);
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 0.1s;
+}
+
+@keyframes move {
+    from{
+        background-position: 396px;
+    }
+    to{ background-position: 0px;
+    }
+}
