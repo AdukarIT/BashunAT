@@ -90,7 +90,7 @@
 
 
 
-// for ( let i = 2; i <= 15;  i++){
+// for ( let i = 1; i <= 15;  i++){
 // 	console.log(x = (x=(i - 1)) + (x=(i-2)));
 // }
 
