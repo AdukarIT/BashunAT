@@ -43,3 +43,13 @@
 * [Ball](https://github.com/AdukarIT/BashunAT/tree/master/animation/ball)
 * [Fan](https://github.com/AdukarIT/BashunAT/tree/master/animation/fan)
 * [Sub-Zero](https://github.com/AdukarIT/BashunAT/tree/master/animation/sub-zero)
+
+
+## Logical Operators
+
+* [logical 1-5 (6-7?!)](https://github.com/AdukarIT/BashunAT/tree/master/logical%20operators)
+
+
+## Functions
+
+* [function 1-5 (6?!)](https://github.com/AdukarIT/BashunAT/tree/master/functions)
