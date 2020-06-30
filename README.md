@@ -53,3 +53,7 @@
 ## Functions
 
 * [function 1-5 (6?!)](https://github.com/AdukarIT/BashunAT/tree/master/functions)
+
+## DeBug
+
+* [DeBug](https://github.com/AdukarIT/BashunAT/tree/master/debug)
