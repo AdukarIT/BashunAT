@@ -43,7 +43,7 @@
 
 //задача 3
 
-// let x = prompt ('enter'); не работает попробовать позже
+
 
 // function typeName(x) {
 // 	typeof x;
@@ -92,3 +92,17 @@
 // }
 
 // alert(n);
+
+
+//задача 6
+
+// только для строк, но я победю её) 
+
+// function reverseNum (num){
+// 	let newNum = "";
+// 	for ( let i = num.length  - 1 ; i>=0; i--){
+// 		newNum = newNum + num[i];
+// 	}
+// 	return newNum;
+// }
+// console.log(reverseNum(1234));

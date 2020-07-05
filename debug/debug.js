@@ -2,62 +2,59 @@
 
 
 // let acaGrade = prompt ('введите отметку от 10 до 100');
-// switch(acaGrade){
-// 	case '100':
-// 	case '90':
-// 		console.log ('BDN Brilliant Dynamite Neon оценка отлично');
-// 		break;
-// 	case '80':
-// 	case '70':
-// 		console.log ('хорошо');
-// 		break;
-// 	case '60':
-// 	case '50':
-// 		console.log ('средне');
-// 		break;
-// 	case '40':
-// 	case '30':
-// 		console.log ('удовлетворительно');
-// 		break;
-// 	case '20':
-// 	case '10':
-// 		console.log ('тобi хана кiдай краiну. неуд!!');
-// 		break;
-// 	default: 
-// 		console.log('вы ввели не подходящее значение');
-// 		break;
+// function grade() {
+// 	switch(acaGrade){
+// 		case '100':
+// 		case '90':
+// 			return ('BDN Brilliant Dynamite Neon оценка отлично');
+// 		case '80':
+// 		case '70':
+// 			return ('хорошо');	
+// 		case '60':
+// 		case '50':
+// 			return ('средне');	
+// 		case '40':
+// 		case '30':
+// 			return ('удовлетворительно');	
+// 		case '20':
+// 		case '10':
+// 			return ('тобi хана кiдай краiну. неуд!!');	
+// 		default: 
+// 			return('вы ввели не подходящее значение');	
+// 	}
 // }
 
+// console.log(grade());
 
 //задача 4
 
 // let timeYear = prompt ('введите номер месяц от 1 до 12');
+// function year() {
+	
 
-// switch(timeYear){
-// 	case '12':
-// 	case '1':
-// 	case '2':
-// 		console.log ('зима');
-// 		break;
-// 	case '3':
-// 	case '4':
-// 	case '5':
-// 		console.log ('весна');
-// 		break;
-// 	case '6':
-// 	case '7':
-// 	case '8':
-// 		console.log ('лето');
-// 		break;
-// 	case '9':
-// 	case '10':
-// 	case '11':
-// 		console.log ('осень');
-// 		break;
-// 	default:
-// 		console.log ('нет такого месяца');
-// 		break;
+// 	switch(timeYear){
+// 		case '12':
+// 		case '1':
+// 		case '2':
+// 			return ('зима');
+// 		case '3':
+// 		case '4':
+// 		case '5':
+// 			return('весна');
+// 		case '6':
+// 		case '7':
+// 		case '8':
+// 			return ('лето');
+// 		case '9':
+// 		case '10':
+// 		case '11':
+// 			return ('осень');
+// 		default:
+// 			return ('нет такого месяца');
+// 	}
 // }
+
+// console.log(year());
 
 //задача 6
 
@@ -98,10 +95,12 @@
 // let draw = +prompt ('введите число');
 
 // function drawEnds(draw){
-// 	if (draw % 10 == 1){
-// 		return (draw + ' карандаш');
+// 	 if (draw % 100 == 12 || draw % 100 == 13 || draw % 100 == 14 || draw % 100 == 11 ) {
+// 		return (draw +' карандашей');
 // 	}else if (draw % 10 == 2 || draw % 10 == 3 || draw % 10 == 4) {
 // 		return (draw + ' карандаша');
+// 	}else if (draw % 10 == 1) {
+// 		return (draw + ' карандаш');
 // 	}else {
 // 		return (draw + ' карандашей');
 // 	}
@@ -111,16 +110,16 @@
 
 // задача 11 
 
-//в ттырнетах написали что то, а мне кажется что что-то не то. разобраться.
+//делает левую итерацию %(
 
 // let x = prompt ('введите число');
 
-// function div(x) {
-// 	for ( let i = 1; x <= i; i++){
-// 		if( x % i == 0){
+// function div() {
+// 	for ( let i = 0; i <= x; i++){
+// 		if( x % i == 0 ){
 // 			console.log(i);
 // 		}
 // 	}
 // }
 
-// console.log (div(x));
+// console.log (div());
