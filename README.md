@@ -47,7 +47,7 @@
 
 ## Logical Operators
 
-* [logical 1-5 (6-7?!)](https://github.com/AdukarIT/BashunAT/tree/master/logical%20operators)
+* [logical Operators](https://github.com/AdukarIT/BashunAT/tree/master/logical%20operators)
 
 
 ## Functions
@@ -57,3 +57,12 @@
 ## DeBug
 
 * [DeBug](https://github.com/AdukarIT/BashunAT/tree/master/debug)
+
+## Array
+
+* [Array](https://github.com/AdukarIT/BashunAT/tree/master/arrays)
+
+
+## Object
+
+* [Object](https://github.com/AdukarIT/BashunAT/tree/master/object)
