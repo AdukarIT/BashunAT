@@ -72,5 +72,30 @@ console.log (getRandomArray());
 // console.log (minNumber(getRandomArray()));
 
 
+//задача 4
 
+// должна работать, но работает не так ка я задумывал
 
+// function shitArr(arr) {
+// 	let temp;
+
+// 	for (let i = 0; i < arr.length; i++) {
+// 		if (arr[i] < 3) {
+// 			arr[i] = 0;
+// 		}
+	
+
+// 	for (j = i; j < arr.length; j++) {
+// 		if (j == arr.length - 1) {
+// 			arr[j] = 0;
+// 			break;
+// 		}
+// 		temp = arr[j];
+// 		arr[j] = arr[j + 1];
+// 		arr[j + 1] = temp;
+// 	}
+// 	}
+// 	return arr;
+// }
+
+// console.log (shitArr(getRandomArray()));
