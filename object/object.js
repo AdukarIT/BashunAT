@@ -79,9 +79,9 @@
 
 // console.log(inquisitor.releaseBook());
 
-//задача 4
+// задача 4
 
-//не понял как вывести сразу метод releaseBook. Было бы красивее.
+// не понял как вывести сразу метод releaseBook. Было бы красивее.
 
 // function releaseDate(obj1, obj2){
 // 	if (obj1.releaseDate < obj2.releaseDate) {
@@ -91,4 +91,4 @@
 // 	}
 // }
 
-// console.log(releaseDate(castleValentine,scullSleeve ));
+// console.log(releaseDate(castleValentine,scullSleeve ).releaseBook());

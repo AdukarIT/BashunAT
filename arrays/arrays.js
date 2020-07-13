@@ -1,13 +1,13 @@
-function getRandomArray(len = 5) {
-	let arr = [];
+// function getRandomArray(len = 5) {
+// 	let arr = [];
 
-		for( let i = 0; i < len; i++){
-			arr[i] = Math.floor(Math.random() * 10);
-		}
-		return arr;
-}		
+// 		for( let i = 0; i < len; i++){
+// 			arr[i] = Math.floor(Math.random() * 10);
+// 		}
+// 		return arr;
+// }		
 
-console.log (getRandomArray());
+// console.log (getRandomArray());
 
 //задача 2
 
@@ -34,7 +34,7 @@ console.log (getRandomArray());
 // //задача 3
 
  /*сортирует но слайс не прикрутил. извините что так мало успел. я все дни работал. 
- да и сортировка берет откуда то indifinde */
+ да и сортировка берет откуда то undifinde */
 
 // function sortNumber(arr) {
 // 	let = arr;
