@@ -99,3 +99,44 @@ console.log (getRandomArray());
 // }
 
 // console.log (shitArr(getRandomArray()));
+
+
+//задача 5
+
+
+// function semArr(arr1, arr2){
+// 	let sum = 0;
+// 	let sumRes =[];
+
+// 	for (let i = 0; i < arr1.length; i++) {
+// 		sum = arr1[i] + arr2[arr2.length - 1 - i];
+// 		sumRes.push(sum);
+// 	}
+// 	return sumRes;
+// }
+
+// console.log(semArr(getRandomArray(), getRandomArray()));
+
+
+//задача 6
+//доучить!
+
+// function bubble(arr){
+	
+	
+
+// 	for (let i = 0, bubbleI =  arr.length - 1; i < bubbleI; i++) {
+// 		for (let j = 0, bubbleJ = bubbleI - i; j < bubbleJ; j++) {
+// 			if (arr[j] > arr[j + 1]) {
+// 				let temp = arr[j];
+
+// 				arr[j] = arr[j + 1];
+// 				arr[j + 1] = temp;
+// 			}
+// 		}
+// 	}
+
+// 	return arr;
+// }
+
+// console.log(bubble(getRandomArray()));
